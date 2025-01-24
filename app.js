@@ -22,7 +22,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // L'origine autorisée (frontend)
+    origin: "https://judshop-frontend.vercel.app", // L'origine autorisée (frontend)
     credentials: true, // Permet les cookies ou les credentials
   })
 );
